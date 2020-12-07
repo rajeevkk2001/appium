@@ -1,0 +1,24 @@
+{
+  "server": "ondemand.us-west-1.saucelabs.com:443",
+  "username": "lennoxmobile",
+  "access_key": "d52d1527-1e5d-4f02-9459-50ae89fac90a",
+    "capabilities": {
+    "locationServicesAuthorized": true,
+    "autoGrantPermissions": true,
+    "autoAcceptAlerts":true,
+    "app": "storage:4d3060b3-42c0-435d-97f2-80ee2137abd1",
+    "platformNMame": "Android",
+    "deviceOrientation": "portrait"
+  },
+
+  "environments": [
+    { 
+      "deviceName": "Google Pixel 4a",
+      "platformVersion": "11"
+    },{
+      "deviceName": "Google Pixel 5",
+      "platformVersion": "11"
+    }
+  ]
+}
+
